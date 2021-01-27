@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 75%;
+  /* height: 700px; */
+  margin: 0 auto;
+}
+
+/*HEADER*/
+.bg-header{
+  background-color: #0C325A;
+  /* background-image: url('../img/background-header.png');
+  height: 800px;
+  background-position: right;
+  background-repeat: no-repeat; */
+}
+
+nav{
+  vertical-align: middle;
+  padding-top: 15px;
+}
+
+nav img{
+  vertical-align: middle;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+
+nav ul, div.logo {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+div.logo{
+  margin-right: 3%;
+}
+
+nav ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0px 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.8em;
+}
+
+nav ul.lato-dx{
+  float: right;
+
+}
+
+/* div.tit-header{
+  width: 50%;
+  color: #ffffff;
+  padding-top: 20%;
+  line-height: 50px;
+}
+
+.tit-header h1{
+  font-size: 3.5em;
+  margin-bottom: 50px;
+} */
+
+/* [class^="btn-circ"]{
+  text-align: center;
+  border-radius: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0px 20px;
+} */
+
+/* .btn-circ-img a{
+  font-size: 0.8em;
+}
+
+.green{
+  border: 1px solid green;
+  background-color: #00ff00;
+} */
