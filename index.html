@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <title>Fluentify</title>
     <link rel="stylesheet" href="./assets/css/master.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> -->
   </head>
   <body>
-    <header  class="bg-header">
+    <header class="bg-header">
       <div class="container">
         <nav>
           <div class="logo">
@@ -20,13 +20,13 @@
             <li><a href="#">real-life english</a></li>
             <li><a href="#">soluzioni aziendali</a></li>
           </ul>
-          <ul class="lato-dx">
+          <ul class="nav-dx">
             <li><a href="#">diventa tutor</a></li>
-            <li class="btn-circ"><a href="#">login</a></li>
-            <li class="btn-circ btn-green"><a href="#">struttura un piano</a></li>
+            <li><a class="btn-circ-login" href="#">login</a></li>
+            <li><a class="btn-circ btn-green" href="#">struttura un piano</a></li>
           </ul>
         </nav>
-        <div class="t-header">
+        <div class="title-header">
           <h1>Scegli l'inglese studiato per i professionisti</h1>
           <a class="btn-circ-img btn-green" href="#">struttura un piano</a>
         </div>
@@ -51,15 +51,15 @@
         <div class="main-mid">
           <div class="row">
             <div class="col-33">
-              <img height="200px" src="./assets/img/profile.svg" alt="">
+              <img height="200px" src="./assets/img/profile.svg" alt="rappresentazione piano formativo">
               <h3>Piano formativo configurato sul proprio livello</h3>
             </div>
             <div class="col-33">
-              <img height="200px" src="./assets/img/computer.svg" alt="">
+              <img height="200px" src="./assets/img/computer.svg" alt="computer con tutor live">
               <h3>Affiancamento costante del tutor</h3>
            </div>
             <div class="col-33">
-              <img height="200px" src="./assets/img/doc.svg" alt="">
+              <img height="200px" src="./assets/img/doc.svg" alt="documenti per monitoraggio progressi">
               <h3>Monitora i tuoi progressi costantemente</h3>
             </div>
           </div>
@@ -79,11 +79,11 @@
           </div>
         </div>
       </div>
-      <hr style="margin:50px auto; width:98%; border-color:lightgrey;">
+      <hr style="margin:50px auto; width:98%;background-color: #D3D3D3">
       <div class="container">
         <div class="row">
           <div style="text-align:center;" class="col-50">
-            <img height="450px" src="./assets/img/mountain.svg" alt="montagna immaginaria con step">
+            <img height="400px" class="responsive" src="./assets/img/mountain.svg" alt="montagna immaginaria con step">
           </div>
           <div class="col-50 bot-mid">
             <h2>Scopri il tuo livello inziale e struttura un piano personalizzato</h2>
@@ -93,21 +93,27 @@
         </div>
       </div>
       <hr style="margin:25px auto; border: white;">
-  </main>
+    </main>
 
     <footer class="bg-grey">
       <div class="container">
         <div class="row">
-          <div class ="col-50 bot-mid">
+          <div class ="col-50 foot-left">
             <h2>Struttura un piano</h2>
           </div>
           <div class="col-50 al-right">
-            <a class="did">Sono ##SELEZIONA## </a> <!-- TODO: seleziona da lista -->
-            <a class="btn-circ-img btn-green" href="#">struttura un piano</a>
+            <a class="did">Sono
+              <select class="gen-selector" name="selezione-genere">
+                <option value="" selected disabled hidden>Seleziona</option>
+                <option value="uomo">Uomo</option>
+                <option value="donna">Donna</option>
+              </select>
+           </a>
+           <a class="btn-circ-img btn-green" href="#">struttura un piano</a>
           </div>
         </div>
       </div>
-      <a class="btn-circ btn-green sup-but" href="#">HELP</a>
+      <a class="btn-circ btn-green help-btn" href="#">HELP</a>
     </footer>
 
   </body>

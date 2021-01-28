@@ -6,61 +6,11 @@
 }
 
 .container{
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
-/*HEADER*/
-header{
-  height: 700px;
-}
-
-.bg-header{
-  background-color: #0C325A;
-  background-image: url('../img/background-header.png');
-  background-repeat: no-repeat;
-  background-size: 65%;
-  background-position: 115% 110%;
-}
-/*HEADER - nav*/
-nav{
-  vertical-align: middle;
-  padding-top: 15px;
-}
-
-nav img{
-  vertical-align: middle;
-  padding-bottom: 15px;
-  padding-left: 10px;
-  margin-right: 10px;
-}
-
-nav ul, div.logo {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 52px;
-}
-
-div.logo{
-  margin-right: 3%;
-}
-
-nav ul li{
-  display: inline-block;
-  text-transform: uppercase;
-  padding: 0px 10px;
-  margin-left: 10px;
-}
-
-li a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 0.8em;
-}
-
-nav ul.lato-dx{
-  float: right;
-}
+/*LAYOUT*/
 
 [class^="btn-circ"]{
   text-align: center;
@@ -69,31 +19,21 @@ nav ul.lato-dx{
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
-  padding: 0 20px;
+  padding: 10px 20px;
 }
+
 .btn-green{
   background-color: #7BBC1E;
   border: 1px solid #7BBC1E;
-}
-
-div.t-header{
-width: 50%;
-color: #ffffff;
-padding-top: 15%;
-padding-right: 5%;
-}
-
-.t-header h1{
-font-size: 4em;
-margin-bottom: 50px;
-line-height: 80px;
 }
 
 .btn-circ-img{
   padding: 20px 20px;
 }
 
-/*MAIN*/
+.btn-circ-login{
+  padding: 10px 40px;
+}
 
 [class^="col-"]{
   float: left;
@@ -121,6 +61,104 @@ line-height: 80px;
 .col-50{
   width: 50%;
 }
+
+.did-centered{
+  color: grey;
+  line-height: 25px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.did{
+  color: grey;
+  line-height: 25px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.al-right{
+  text-align: right;
+}
+
+.responsive{
+  max-width: 100%;
+}
+
+/*HEADER*/
+
+header{
+  height: 700px;
+}
+
+.bg-header{
+  background-color: #0C325A;
+  background-image: url('../img/background-header.png');
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: 115% 110%;
+}
+
+/*HEADER - nav*/
+
+nav{
+  padding-top: 15px;
+}
+
+nav img{
+  vertical-align: middle;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+nav ul, div.logo {
+  display: inline-block;
+}
+
+nav ul{
+  height: 60px;
+  line-height: 60px;
+}
+
+div.logo{
+  margin-right: 3%;
+}
+
+nav ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0px 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.8em;
+}
+
+nav ul.nav-dx{
+  float: right;
+  vertical-align: middle;
+}
+
+div.title-header{
+  width: 50%;
+  color: #ffffff;
+  padding-top: 15%;
+  padding-right: 4%;
+}
+
+.title-header h1{
+  font-size: 3.5em;
+  font-weight: 500;
+  margin-bottom: 50px;
+  line-height: 80px;
+}
+
+/*MAIN*/
 
 div.main-sup{
   text-align: center;
@@ -162,42 +200,41 @@ div.bg-main-sup{
   color: grey;
 }
 
-.did-centered{
-  color: grey;
-  line-height: 25px;
-  text-align: center;
-  width: 80%;
-  margin: 0 auto;
-  font-size: 1.2em;
-}
-
-.did{
-  color: grey;
-  line-height: 25px;
-  font-size: 1.2em;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
 div .bot-mid{
   padding: 0 10%;
 }
 
 .bot-mid h2{
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
-.al-right{
-  text-align: right;
-}
+/*FOOTER*/
 
 footer{
   background-color: #D3D3D3;
-  line-height: 40px;
-  padding: 4%;
+  line-height: 25px;
+  padding: 4% 0;
 }
- .sup-but{
-   position: fixed;
-   bottom: -7px;
-   right: 17%;
+
+.foot-left{
+  font-size: 1.3em;
+}
+
+.help-btn{
+  position: fixed;
+  bottom: -7px;
+  right: 22%;
+  padding: 5px 15px;
  }
+
+.gen-selector{
+  width: 25%;
+  height: auto;
+  background-color: #D3D3D3;
+  color: grey;
+  font-size: 1em;
+  border: 0px grey;
+  border-bottom: 1px solid grey;
+  padding: 0 10px;
+  margin: 0 10px;
+}
