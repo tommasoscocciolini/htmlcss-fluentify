@@ -6,7 +6,7 @@
 }
 
 .container{
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -80,6 +80,7 @@ div.t-header{
 width: 50%;
 color: #ffffff;
 padding-top: 15%;
+padding-right: 5%;
 }
 
 .t-header h1{
@@ -117,6 +118,10 @@ line-height: 80px;
   width: calc(100%/3);
 }
 
+.col-50{
+  width: 50%;
+}
+
 div.main-sup{
   text-align: center;
   padding: 4%;
@@ -132,18 +137,67 @@ div.bg-main-sup{
   color: grey;
 }
 
-div [class^="main-mid-"]{
+[class^="main-mid"]{
   text-align: center;
-  padding: 30px 0;
+  margin: 30px 0;
 }
 
-.main-mid-img .col-33 img{
+.main-mid .col-33 img{
   width: 100%;
   margin: 0 auto;
 }
 
-.main-mid-img .col-33 h3{
+.main-mid .col-33 h3{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
   color: #7BBC1E;
-  font-size: 2em;
-  padding-top: 50px;
+  font-size: 1.7em;
 }
+
+.short-hr{
+  margin: 25px auto;
+  width: 20%;
+  color: grey;
+}
+
+.did-centered{
+  color: grey;
+  line-height: 25px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.did{
+  color: grey;
+  line-height: 25px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+div .bot-mid{
+  padding: 0 10%;
+}
+
+.bot-mid h2{
+  font-size: 2.5em;
+}
+
+.al-right{
+  text-align: right;
+}
+
+footer{
+  background-color: #D3D3D3;
+  line-height: 40px;
+  padding: 4%;
+}
+ .sup-but{
+   position: fixed;
+   bottom: -7px;
+   right: 17%;
+ }
