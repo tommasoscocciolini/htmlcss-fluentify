@@ -63,7 +63,7 @@
 }
 
 .did-centered{
-  color: grey;
+  color: #808080;
   line-height: 25px;
   text-align: center;
   width: 80%;
@@ -72,7 +72,7 @@
 }
 
 .did{
-  color: grey;
+  color: #808080;
   line-height: 25px;
   font-size: 1.2em;
   margin-top: 20px;
@@ -173,7 +173,7 @@ div.bg-main-sup{
 }
 
 .main-sup p {
-  color: grey;
+  color: #808080;
 }
 
 [class^="main-mid"]{
@@ -184,6 +184,7 @@ div.bg-main-sup{
 .main-mid .col-33 img{
   width: 100%;
   margin: 0 auto;
+  display: block;
 }
 
 .main-mid .col-33 h3{
@@ -198,7 +199,6 @@ div.bg-main-sup{
 .short-hr{
   margin: 25px auto;
   width: 20%;
-  color: grey;
 }
 
 div .bot-mid{
@@ -232,10 +232,11 @@ footer{
   width: 25%;
   height: auto;
   background-color: #D3D3D3;
-  color: grey;
+  color: #808080;
   font-size: 1em;
   border: 0px grey;
   border-bottom: 1px solid grey;
   padding: 0 10px;
   margin: 0 10px;
+  outline: none;
 }
